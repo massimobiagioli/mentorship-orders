@@ -1,5 +1,4 @@
 import useSWR from "swr";
-import { OrderList } from "../components/order";
 import apiFetcher from "../src/common/infrastructure/swr/apiFetcher";
 
 const Home = () => {
@@ -8,7 +7,7 @@ const Home = () => {
   if (error) return <div>Failed to load orders</div>;
   if (!data) return <div>Loading...</div>;
 
-  return <OrderList orders={data} />;
+  return <div>order list</div>;
 };
 
 export default Home;
