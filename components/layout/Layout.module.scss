@@ -1,0 +1,16 @@
+.Block {
+  display: grid;
+  grid-template-rows: fit-content(50px) 1fr;
+  height: 100vh;
+  &_headerContainer {
+    padding: 20px;
+    background-color: #975656;
+  }
+  &_contentContainer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    &___compact {
+      padding: 0;
+    }
+  }
+}
