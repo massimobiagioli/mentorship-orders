@@ -1,6 +1,7 @@
 .Block {
   display: grid;
   grid-template-rows: fit-content(50px) 1fr;
+  grid-template-columns: 1fr;
   height: 100vh;
   &_headerContainer {
     padding: 20px;
