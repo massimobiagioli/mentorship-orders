@@ -1,0 +1,14 @@
+.Block {
+  border: 1px solid #00f;
+  padding: 10px;
+  background-color: #EBE9F8;
+
+  &_header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &_body {
+    margin-top: 10px;
+  }
+}

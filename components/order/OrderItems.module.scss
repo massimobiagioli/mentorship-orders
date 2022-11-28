@@ -1,0 +1,18 @@
+.Block {
+  background-color: #ffffff;
+  padding: 10px;
+
+  &_item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #F4F4F4;
+    margin-bottom: 10px;
+  }
+
+  &_total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+}
