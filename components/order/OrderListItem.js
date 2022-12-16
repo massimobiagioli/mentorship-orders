@@ -4,7 +4,7 @@ import OrderItems from "./OrderItems";
 
 const OrderListItem = ({order}) => {
     return (
-        <div className={style.Block}>
+        <li key={order.id} className={style.Block}>
             <section className={style.Block_header}>
                 <div>
                     <div>ID: {order.code}</div>
@@ -14,11 +14,13 @@ const OrderListItem = ({order}) => {
                     <div>created</div>
                 </div>
             </section>
-            <li key={order.id} className={style.Block_body}>
+            <section className={style.Block_customer}>
                 <OrderCustomer customer={order.customer} />
+            </section>
+            <section className={style.Block_items}>
                 <OrderItems items={order.orderItems} />
-            </li>
-        </div>
+            </section>
+        </li>
     );
 };
 

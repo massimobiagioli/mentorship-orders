@@ -7,19 +7,21 @@ function calculateTotal(items) {
 const OrderItems = ({items}) => {
     return (
         <div className={style.Block}>
-            <h3>ITEMS</h3>
-            {items.map(item => (
-                <div key={item.code} className={style.Block_item}>
-                    <div>
-                        <div>{item.code}</div>
-                        <div>{item.description}</div>
+            <div className={style.Block_content}>
+                <h3 className={style.Block_header}>ITEMS</h3>
+                {items.map(item => (
+                    <div key={item.code} className={style.Block_item}>
+                        <div>
+                            <div>{item.code}</div>
+                            <div>{item.description}</div>
+                        </div>
+                        <div>
+                            <div>{item.price.toFixed(2)}€</div>
+                            <div>X{item.quantity}</div>
+                        </div>
                     </div>
-                    <div>
-                        <div>{item.price.toFixed(2)}€</div>
-                        <div>X{item.quantity}</div>
-                    </div>
-                </div>
-            ))}
+                ))}
+            </div>
             <div className={style.Block_total}>
                 <div>TOT</div>
                 <div>{calculateTotal(items)}€</div>
