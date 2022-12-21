@@ -1,4 +1,12 @@
 .Block {
   background-color: var(--color-light);
   padding: 10px;
+
+  &_header {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+
+  &_content {
+  }
 }

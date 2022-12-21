@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="333025b7-7f9f-4806-90ce-73a929954f5a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/order/OrderCustomer.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/order/OrderCustomer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/order/OrderCustomer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/order/OrderCustomer.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/order/OrderItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/order/OrderItems.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/order/OrderItems.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/order/OrderItems.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/order/OrderListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/order/OrderListItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/order/OrderListItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/order/OrderListItem.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Document.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Document.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,22 +28,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/massimobiagioli/dev/my-projects/mentorship-orders/components/order",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "editor.preferences.tabs",
-    "ts.external.directory.path": "/Users/massimobiagioli/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/222.4345.14/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/massimobiagioli/dev/my-projects/mentorship-orders/components/order&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/massimobiagioli/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/222.4345.14/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/components/order" />
@@ -70,7 +66,8 @@
       <workItem from="1669704508904" duration="1360000" />
       <workItem from="1670601583238" duration="2425000" />
       <workItem from="1670832693650" duration="598000" />
-      <workItem from="1671197794641" duration="2722000" />
+      <workItem from="1671197794641" duration="2751000" />
+      <workItem from="1671639072108" duration="201000" />
     </task>
     <servers />
   </component>
