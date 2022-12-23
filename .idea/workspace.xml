@@ -6,8 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="333025b7-7f9f-4806-90ce-73a929954f5a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/order/OrderCustomer.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/order/OrderCustomer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/order/OrderCustomer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/order/OrderCustomer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/order/OrderListItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/order/OrderListItem.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/order/OrderStatus.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/order/OrderStatus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/order/OrderStatus.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/order/OrderStatus.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Document.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Document.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +71,11 @@
       <workItem from="1670601583238" duration="2425000" />
       <workItem from="1670832693650" duration="598000" />
       <workItem from="1671197794641" duration="2751000" />
-      <workItem from="1671639072108" duration="201000" />
+      <workItem from="1671639072108" duration="784000" />
+      <workItem from="1671695577324" duration="1351000" />
+      <workItem from="1671781486691" duration="599000" />
+      <workItem from="1671783024394" duration="860000" />
+      <workItem from="1671803554550" duration="5695000" />
     </task>
     <servers />
   </component>

@@ -9,4 +9,18 @@
 
   &_content {
   }
+
+  &_email {
+    text-decoration: none;
+    color: var(--color-dark);
+
+    &:hover {
+      color: var(--color-dark);
+      text-decoration: underline;
+    }
+
+    &:visited {
+      color: var(--color-dark);
+    }
+  }
 }

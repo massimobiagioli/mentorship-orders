@@ -1,0 +1,19 @@
+.Block {
+  text-transform: uppercase;
+  color: #F4F4F4;
+  font-size: 0.8em;
+  padding: 5px;
+  border-radius: var(--standard-border-radius);
+
+  &___created {
+    background-color: #000F9A;
+  }
+
+  &___shipped {
+    background-color: #289A00;
+  }
+
+  &___canceled {
+    background-color: #FF0000;
+  }
+}

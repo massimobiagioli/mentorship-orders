@@ -6,7 +6,7 @@ const OrderCustomer = ({customer}) => {
             <h3 className={style.Block_header}>CUSTOMER</h3>
             <div className={style.Block_content}>
                 <div>{customer.firstname} {customer.lastname}</div>
-                <div>{customer.email}</div>
+                <div><a href={`mailto:${customer.email}`} className={style.Block_email}>{customer.email}</a></div>
             </div>
         </div>
     );
